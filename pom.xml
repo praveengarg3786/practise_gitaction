@@ -34,15 +34,11 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
-						<username>github_action</username>
-						<password>QWERasdf!@34</password>
-						<applicationName>${app.name}-mryhmln</applicationName>
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>
+						<applicationName>${app.name}</applicationName>
 						<environment>Sandbox</environment>
-						<workerType>MICRO</workerType>
-						<region>us-east-2</region>
-						<workers>1</workers>
-						<objectStoreV2>true</objectStoreV2>
-					</cloudHubDeployment>				
+											</cloudHubDeployment>				
 				</configuration>
 			</plugin>
 		</plugins>
